@@ -1,0 +1,611 @@
+repo_name: ry-animal/graphql-next-ecomm
+report_id: 2da8464855f5c869cbf5687752349696
+repo_type: Public
+timestamp: '2023-11-09T18:10:10+00:00'
+requested_by: wesbos
+provider: github
+branch: master
+detected_tools_count: 46
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: Next.js
+  description: 'A small framework for server-rendered universal JavaScript apps '
+  website_url: https://nextjs.org/
+  version: 9.5.5
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and
+    CSS to style your apps without stress.
+  website_url: https://styled-components.com
+  version: 4.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6749/styled-components.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: GraphQL
+  description: A data query language and runtime
+  website_url: http://graphql.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Query Languages
+  image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: A-J Roos
+  last_updated_on: 2021-11-28 13:10:12.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.12.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source: sick-fits/backend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: Enzyme
+  description: JavaScript Testing utilities for React, by Airbnb
+  website_url: https://enzymejs.github.io/enzyme/
+  version: 3.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/4488/default_87e6ca3fa146a959af95ccf3df1ec550eb434129.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: finished-application/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 26.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: Stripe
+  description: Payments for developers
+  website_url: https://stripe.com
+  open_source: false
+  hosted_saas: true
+  category: Payments
+  sub_category: Payment Services
+  image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: Nodemailer
+  description: A module for Node.js applications to allow email sending
+  website_url: http://www.nodemailer.com/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/2862/qr2-jCLr.jpg
+  detection_source: sick-fits/backend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: date-fns
+  description: Modern JavaScript date utility library
+  website_url: https://date-fns.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: downshift
+  description: Primitive to build simple, flexible, WAI-ARIA compliant enhanced input
+    React components
+  website_url: https://github.com/paypal/downshift
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10155/no-img-open-source.png
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.12.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.12.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 11.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 4.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/backend/package.json
+  last_updated_by: Tim Leslie
+  last_updated_on: 2021-02-04 04:08:29.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 4.13.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/backend/package.json
+  last_updated_by: Tim Leslie
+  last_updated_on: 2021-02-04 04:08:29.000000000 Z
+- name: babel-core
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/babel-core
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15798/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: babel-jest
+  description: Jest plugin to use babel for transformation
+  package_url: https://www.npmjs.com/babel-jest
+  version: 26.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: babel-plugin-styled-components
+  description: Improve the debugging experience and add server-side rendering support
+    to styled-components
+  package_url: https://www.npmjs.com/babel-plugin-styled-components
+  version: 1.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16651/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: enzyme-adapter-react-16
+  description: JavaScript Testing utilities for React
+  package_url: https://www.npmjs.com/enzyme-adapter-react-16
+  version: 1.15.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15959/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: finished-application/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 18.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 6.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: eslint-plugin-html
+  description: A ESLint plugin to lint and fix inline scripts contained in HTML files
+  package_url: https://www.npmjs.com/eslint-plugin-html
+  version: 6.1.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16129/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.22.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 3.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.22.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: graphql-tag
+  description: A JavaScript template literal tag that parses GraphQL queries
+  package_url: https://www.npmjs.com/graphql-tag
+  version: 2.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16631/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: A-J Roos
+  last_updated_on: 2021-11-28 13:10:12.000000000 Z
+- name: lodash.debounce
+  description: The lodash method `_.debounce` exported as a module
+  package_url: https://www.npmjs.com/lodash.debounce
+  version: 4.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16481/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: nprogress
+  description: Simple slim progress bars
+  package_url: https://www.npmjs.com/nprogress
+  version: 0.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17061/default_23002b02644a8cb313a0f53f43df271731022a9e.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: react-test-renderer
+  description: React package for snapshot testing
+  package_url: https://www.npmjs.com/react-test-renderer
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15929/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
+- name: react-transition-group
+  description: A react component toolset for managing animations
+  package_url: https://www.npmjs.com/react-transition-group
+  version: 2.9.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16380/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2021-02-02 15:21:02.000000000 Z
