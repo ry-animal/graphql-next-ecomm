@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 ry-animal/graphql-next-ecomm is built on the following main stack:
+
 - [Stripe](https://stripe.com) – Payment Services
 - [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - [React](https://reactjs.org/) – Javascript UI Libraries
@@ -19,11 +20,13 @@ ry-animal/graphql-next-ecomm is built on the following main stack:
 - [date-fns](https://date-fns.org/) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 ry-animal/graphql-next-ecomm is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/97/eW6tXeq3.png' alt='Stripe'/> [Stripe](https://stripe.com) – Payment Services
 - <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
@@ -41,14 +44,15 @@ ry-animal/graphql-next-ecomm is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png' alt='date-fns'/> [date-fns](https://date-fns.org/) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ry-animal/graphql-next-ecomm](https://github.com/ry-animal/graphql-next-ecomm)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|46<br/>Tools used|11/09/23 <br/>Report generated|
+|47<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -243,9 +247,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (26)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (27)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (26)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (27)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -259,6 +263,7 @@ Full tech stack [here](/techstack.md)
 |[babel-eslint](https://www.npmjs.com/babel-eslint)|v10.1.0|02/02/21|Wes Bos |MIT|N/A|
 |[babel-jest](https://www.npmjs.com/babel-jest)|v26.6.3|02/02/21|Wes Bos |MIT|N/A|
 |[babel-plugin-styled-components](https://www.npmjs.com/babel-plugin-styled-components)|v1.12.0|02/02/21|Wes Bos |MIT|N/A|
+|[downshift](https://www.npmjs.com/downshift)|v6.1.7|02/02/21|Wes Bos |MIT|N/A|
 |[enzyme-adapter-react-16](https://www.npmjs.com/enzyme-adapter-react-16)|v1.15.6|02/02/21|Wes Bos |MIT|N/A|
 |[eslint-config-airbnb](https://www.npmjs.com/eslint-config-airbnb)|v18.2.1|02/02/21|Wes Bos |MIT|N/A|
 |[eslint-config-prettier](https://www.npmjs.com/eslint-config-prettier)|v6.15.0|02/02/21|Wes Bos |MIT|N/A|
@@ -279,4 +284,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
